@@ -1,0 +1,1 @@
+step,g_loss,d_loss,valid_loss,valid_g_loss,valid_d_loss,pitch_loss,duration_loss,instrument_loss

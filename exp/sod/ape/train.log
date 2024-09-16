@@ -1,0 +1,42 @@
+Running command: python test.py -d sod -o exp/sod/ape -g 0
+Using arguments:
+{'abs_pos_emb': True,
+ 'aug': True,
+ 'batch_size': 8,
+ 'dataset': 'sod',
+ 'dim': 512,
+ 'dropout': 0.2,
+ 'early_stopping': True,
+ 'early_stopping_tolerance': 20,
+ 'filter': 'top_k',
+ 'filter_threshold': 0.9,
+ 'gpu': 0,
+ 'grad_norm_clip': 1.0,
+ 'heads': 8,
+ 'in_dir': PosixPath('data/sod/processed/notes'),
+ 'jobs': 4,
+ 'layers': 6,
+ 'learning_rate': 0.0005,
+ 'learning_rate_discriminator': 1e-05,
+ 'lr_decay_multiplier': 0.1,
+ 'lr_decay_steps': 100000,
+ 'lr_warmup_steps': 5000,
+ 'max_beat': 256,
+ 'max_seq_len': 1024,
+ 'out_dir': PosixPath('/home/kinnryuu/ダウンロード/Dragon_model/exp/sod/ape'),
+ 'quiet': False,
+ 'rel_pos_emb': False,
+ 'seq_len': 1024,
+ 'steps': 200000,
+ 'temperature': 1.0,
+ 'train_names': PosixPath('data/sod/processed/train-names.txt'),
+ 'use_csv': False,
+ 'valid_names': PosixPath('data/sod/processed/valid-names.txt'),
+ 'valid_steps': 1000}
+Saved arguments to /home/kinnryuu/ダウンロード/Dragon_model/exp/sod/ape/train-args.json
+Using device: cuda:0
+Creating the data loader...
+Creating model...
+Number of parameters: 19944950
+Number of trainable parameters: 19944950
+Training...
